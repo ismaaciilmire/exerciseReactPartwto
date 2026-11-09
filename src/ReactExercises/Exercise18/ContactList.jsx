@@ -1,5 +1,5 @@
 
-import ContactItem from "./ContactItem";
+import ContactItem from "../Exercise18/ContactItem";
 const ContactList = ({ contacts, dispatch, setEditingContact }) => {
   return (
     <div>

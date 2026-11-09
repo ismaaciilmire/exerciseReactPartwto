@@ -1,7 +1,7 @@
 import { useReducer,useState } from "react"
-import {Reducer,initialstate} from "./ReactExercises/Reducer"
-import ContactForm from "./ReactExercises/ContactForm"
-import ContactList from "./ReactExercises/ContactList"
+import {Reducer,initialstate} from "./ReactExercises/Exercise18/Reducer"
+import ContactForm from "./ReactExercises/Exercise18/ContactForm"
+import ContactList from "./ReactExercises/Exercise18/ContactList"
 
 
 const ContactApp = () => {
