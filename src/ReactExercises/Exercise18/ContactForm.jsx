@@ -46,12 +46,13 @@ const ContactForm = ({ dispatch, editingContact, setEditingContact }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='p-4'  onSubmit={handleSubmit}>
       <h3>{isEditing ? 'Edit Contact' : 'Add New Contact'}</h3>
       <div >
         <label>
           Name:
           <input 
+           className='bg-gray-100 rounded-full p-2'
             type="text"
             name="name"
             value={contact.name}
@@ -64,6 +65,7 @@ const ContactForm = ({ dispatch, editingContact, setEditingContact }) => {
         <label>
           Email:
           <input 
+           className='bg-gray-100 rounded-full p-2'
           
           
             type="email"
@@ -78,6 +80,7 @@ const ContactForm = ({ dispatch, editingContact, setEditingContact }) => {
         <label>
           Phone:
           <input 
+           className='bg-gray-100 rounded-full p-2'
             type="tel"
             name="phone"
             value={contact.phone}
@@ -86,7 +89,7 @@ const ContactForm = ({ dispatch, editingContact, setEditingContact }) => {
           />
         </label>
       </div>
-      <button type="submit">{isEditing ? 'Update' : 'Add'}</button>
+      <button className='bg-green-400 p-2 rounded-lg text-white mt-2' type="submit">{isEditing ? 'Update' : 'Add'}</button>
       {isEditing && <button   onClick={handleCancelEdit}>Cancel</button>}
     </form>
   );
