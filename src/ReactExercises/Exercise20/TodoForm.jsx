@@ -1,6 +1,6 @@
 import React,{useState,useContext} from 'react'
 import todoContext from './TodoContext';
-import Styling from '../Exercise19/TodoForm.module.css'
+
 
 
 const TodoForm = () => {
@@ -21,13 +21,13 @@ const TodoForm = () => {
 
   return (
     <div >
-      <input className={Styling.inputStyle} 
+      <input className='bg-gray-100 p-2 rounded '
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Enter a new todo"
       />
-      <button  className={Styling.buttonStyle} onClick={handleAdd}>Add</button>
+      <button className='bg-green-600 p-2 rounded text-white'   onClick={handleAdd}>Add</button>
     </div>
   );
 }
