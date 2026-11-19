@@ -3,12 +3,30 @@ import {Reducer,initialstate} from "./ReactExercises/Exercise18/Reducer"
 import ContactForm from "./ReactExercises/Exercise18/ContactForm"
 import ContactList from "./ReactExercises/Exercise18/ContactList"
 import TodoApp from "./ReactExercises/Exercise20/TodoApp"
+import { useRef,useEffect  } from "react"
+import Exercise22 from "./ReactExercises/Exercise22"
+import Exercise23 from "./ReactExercises/Exetcise23"
 
 
 const ContactApp = () => {
     const [state,dispatch]= useReducer(Reducer,initialstate)
     const [ editingContact,setEditingContact] = useState(null)
+    const inputRef= useRef(null)
+    console.log(inputRef)
+
+    useEffect(()=>{
+      if(inputRef.current)
+       {
+         inputRef.current.focus();
+       }
+
+    },[])
   return (
+    <div>
+      <Exercise23/>
+      <Exercise22/>
+     
+      
     <div  className="min-h-screen bg-gradient-to-br from-orange-50 to-rose-100">
       <TodoApp/>
       
@@ -33,6 +51,7 @@ const ContactApp = () => {
 
 
      </div>
+    </div>
     </div>
   )
 }
