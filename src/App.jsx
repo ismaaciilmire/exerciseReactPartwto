@@ -6,6 +6,17 @@ import TodoApp from "./ReactExercises/Exercise20/TodoApp"
 import { useRef,useEffect  } from "react"
 import Exercise22 from "./ReactExercises/Exercise22"
 import Exercise23 from "./ReactExercises/Exetcise23"
+import Exercise21Recipe from "./ReactExercises/Exercise21Recipe"
+import Exercise24Form from "./ReactExercises/Exercise24Form"
+import TodoAppExercise14 from "./ReactExercises/TodoAppExercise14"
+import Exercise17Gethub from './ReactExercises/Exercise17Gethub'
+import UseForm from "./ReactExercises/UseForm"
+
+
+
+
+
+
 
 
 const ContactApp = () => {
@@ -23,6 +34,11 @@ const ContactApp = () => {
     },[])
   return (
     <div>
+      <TodoAppExercise14/>
+      <Exercise17Gethub/>
+      <UseForm/>
+       <Exercise24Form/>
+      <Exercise21Recipe/>
       <Exercise23/>
       <Exercise22/>
      
