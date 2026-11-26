@@ -3,13 +3,20 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='bg-green-800 text-white p-8'>
-      <h1  className='text-2xl font-bold mb-6 flex justify-center max-w-xl mx-auto'>Introduction Features</h1>
+    <div  className=' text-black p-8 '>
+      
+     <h1 className='text-2xl font-bold mb-6 flex justify-center max-w-xl mx-auto'>   blog one </h1>
 
-        <p className='flex max-w-xl mx-auto p-12'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facere iste nisi rerum? Atque enim cupiditate delectus magni natus voluptates sint, a reiciendis! Eos, rem consequatur sunt obcaecati animi facere saepe necessitatibus dicta hic veritatis, harum odio odit commodi culpa ut autem fugiat, quae inventore! Molestiae eum, aliquid vitae quo est sit perspiciatis. Magnam explicabo ut deserunt sint ullam voluptatem a neque beatae error, dolorem reiciendis. Dolores, culpa magnam. Fugiat deleniti, nisi, velit delectus impedit non unde ex temporibus quibusdam animi obcaecati voluptates? Deleniti numquam aperiam nulla nemo libero aut dolore perspiciatis. Facilis quod laborum velit atque nostrum vel pariatur!</p>
+     <div className='grid grid-cols-2'>
+      <h1>post 1
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis harum modi, aut iste quae quibusdam, officia rerum culpa fuga recusandae assumenda facere iure labore qui possimus adipisci dignissimos sit vero eius nostrum? Porro magnam nostrum dolore, architecto neque accusantium culpa error ullam quia, sint dicta at voluptate minima aperiam.
+      </h1>
+      <img src="https://images.unsplash.com/photo-1719480830235-6954c4a615dd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="" />
 
-    </div>
-  )
+     </div>
+        
+        
+    </div>  )
 }
 
 export default Features

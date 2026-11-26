@@ -2,9 +2,19 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='bg-orange-800 text-white p-8'>
-        <h1  className='text-2xl font-bold mb-6 flex justify-center max-w-xl mx-auto'>introduction About</h1>
-        <p className='flex max-w-xl mx-auto p-12'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus modi, eius perferendis ab architecto voluptas, aliquid eos, dicta nam dolorum iste dignissimos totam laudantium. Ducimus dolores modi id dolorem facilis cum, asperiores, similique placeat eaque cupiditate aperiam nam voluptatem! Exercitationem cupiditate voluptas maxime officiis. Sint optio corporis tempora laboriosam enim, excepturi repellendus rerum, esse iure alias eaque sit nesciunt. Perferendis facilis debitis vero magni sequi placeat, dicta officiis laudantium at dolore quibusdam. Temporibus est, eaque iste nobis impedit sapiente consequatur. Ratione similique eveniet, veniam adipisci asperiores est quas, officiis omnis illum eum iusto incidunt sit totam sapiente minima recusandae. Adipisci.</p>
+    <div  className=' text-black p-8 '>
+      
+     <h1 className='text-2xl font-bold mb-6 flex justify-center max-w-xl mx-auto'>  blog  two</h1>
+
+     <div className='grid grid-cols-2'>
+      <h1 >post 1
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis harum modi, aut iste quae quibusdam, officia rerum culpa fuga recusandae assumenda facere iure labore qui possimus adipisci dignissimos sit vero eius nostrum? Porro magnam nostrum dolore, architecto neque accusantium culpa error ullam quia, sint dicta at voluptate minima aperiam.
+      </h1>
+      <img src="https://images.unsplash.com/photo-1723037970740-def39d9b5ed8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="" />
+
+     </div>
+        
+        
     </div>
   )
 }
