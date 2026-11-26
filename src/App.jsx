@@ -9,7 +9,7 @@ import Exercise23 from "./ReactExercises/Exetcise23"
 import Exercise21Recipe from "./ReactExercises/Exercise21Recipe"
 import Exercise24Form from "./ReactExercises/Exercise24Form"
 import TodoAppExercise14 from "./ReactExercises/TodoAppExercise14"
-import Header from "./ComponentsExer25/Header"
+import Header from "./ComponentsExer26/Header"
 import { Outlet } from "react-router-dom"
 
 

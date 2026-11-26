@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Features = () => {
+const NewPosts = () => {
   return (
     <div  className=' text-black p-8 '>
       
@@ -19,4 +19,4 @@ const Features = () => {
     </div>  )
 }
 
-export default Features
+export default NewPosts

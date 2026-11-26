@@ -8,8 +8,8 @@ const Header = () => {
     
       <nav className="flex justify-center items-center gap-12 w-full" >
             <NavLink to={'/'}>Home</NavLink>
-            <NavLink to={'/About'}>About</NavLink>
-            <NavLink to={'/Features'}>Feature</NavLink>
+            <NavLink to={'/Blogs'}>Blogs</NavLink>
+            <NavLink to={'/NewPosts'}>NewPosts</NavLink>
         </nav>
 
     </header>
